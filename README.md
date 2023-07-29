@@ -1,0 +1,2 @@
+# Simple-DDos-Tool
+DDOS TOOL IN PYTHON
